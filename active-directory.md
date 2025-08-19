@@ -37,3 +37,8 @@ Developed and deployed a virtualized Windows domain lab using a hypervisor - `Vi
 
 Virtual Machine - named as `Domain Controller`, was configured as a domain controller using the `Windows Server 2019 ISO`. The information of the provisioning is 2040 MB of RAM and a virtual CPU to support the `Active Directory`  and core infrastructure services.
 
+## Step 2: Configure `Network Adapters`
+For network setup, `Network Adapters 1`- enabled and attached `NAT` to allow internet access and `Network Adapter 2` -  connect to an `internal network` 
+
+<img width="1131" height="471" alt="Lab 4" src="https://github.com/user-attachments/assets/c379a872-b1dc-4bb6-880b-a0917fe99f13" /></br>
+
