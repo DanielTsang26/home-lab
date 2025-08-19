@@ -57,6 +57,18 @@ For setup, this was essentially powered by the virtual machine and connected by 
 
 ---
 
+## Step 4: `Network Configuration`
+
+Checked the `network conection details` of the virtual machine and observed it was automatically assigned to IPv4 address.
+Under the Network connection, we renamed the NAT adapter to `_INTERNAL_` for clarity. The `_INTERNAL_` adapter was then manually configuered with the following settings:
+
+- **IP address:** `172.16.0.1`  
+- **Subnet mask:** `255.255.255.0`  
+- **Preferred DNS server:** `127.0.0.1`
+
+
+
+
 
 
 
