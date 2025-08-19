@@ -32,13 +32,32 @@
 
 Developed and deployed a virtualized Windows domain lab using a hypervisor - `VirtualBox`, `Windows Server 2019` for the DHCP, and `Windows 10` for the client machine to gain hands-on experience with enterprise network infrastructure and  identity management. The project focused on `Active Directory`, `Group Policy`, and domain-joined `endpoints` to simulate real-world authentication, access control, and administrative workflow. This lab environment essentially created a account and password provisioning setup with common security practices such  as priviledge escalation.
 
+---
 ## SETTING UP THE DOMAIN CONTROLLER
 ### STEP 1: `Windows Server 2019` Virtual Machine Creation and Provisioning
 
 Virtual Machine - named as `Domain Controller`, was configured as a domain controller using the `Windows Server 2019 ISO`. The information of the provisioning is 2040 MB of RAM and a virtual CPU to support the `Active Directory`  and core infrastructure services.
 
+---
 ## Step 2: Configure `Network Adapters`
 For network setup, `Network Adapters 1`- enabled and attached `NAT` to allow internet access and `Network Adapter 2` -  connect to an `internal network` 
 
 <img width="1131" height="471" alt="Lab 4" src="https://github.com/user-attachments/assets/c379a872-b1dc-4bb6-880b-a0917fe99f13" /></br>
+<img width="1131" height="471" alt="Lab 4" src="https://raw.githubusercontent.com/DanielTsang26/home-lab/refs/heads/main/Screenshot%202025-08-19%20112215.png" /></br>
+
+---
+
+## Step 3: `Windows Setup`
+
+For setup, this was essentially powered by the virtual machine and connected by the Windows Server 2019 installation  process using the ISO image.
+
+<img width="636" height="476" alt="Lab 6" src="https://github.com/user-attachments/assets/31f0efb0-f514-40d9-8987-d7ba2b00bff5" /></br>
+
+*Windows Server 2019 Standard Evaluation (Desktop Experience) -> Accept the license term -> Username: administrator Password: dT!181290*
+
+---
+
+
+
+
 
