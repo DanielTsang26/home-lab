@@ -57,7 +57,7 @@ For setup, this was essentially powered by the virtual machine and connected by 
 
 ---
 
-## Step 4: `Network Configuration`
+## Step 4: `Network Configuration` (IP Subnet Masking)
 
 Checked the `network conection details` of the virtual machine and observed it was automatically assigned to IPv4 address.
 Under the Network connection, we renamed the NAT adapter to `_INTERNAL_` for clarity. The `_INTERNAL_` adapter was then manually configuered with the following settings:
@@ -203,3 +203,17 @@ Set-ADUser -Identity $Username -ChangePasswordAtLogon $true
 Password reset, manually done, was in `Active Directory`,  that can be searched up in the task bar. After that, right click `_USER` to find user accounts, `dtsang`. After that, assign a fairly easy-to-remember password.
 
 <img width="512" height="509" alt="Lab 118" src="https://raw.githubusercontent.com/DanielTsang26/home-lab/refs/heads/main/Screenshot%202025-08-19%20121433.png" /></br>
+
+---
+
+*This project simulates a realistic enterprise IT environment that emulates account and password provisioning, network configuration, and security policy implementation in the IT infrastructure. The involvement of this project was:*
+
+- **`virtualization through Windows Server 2019 domain controller`**
+- **`Active Directory`**
+- **`DHCP`**
+- **`Client Machine`**
+- **`Account Provisioning`**
+- **`Password Provisioning`**
+- **`Network Configuration`**
+
+
