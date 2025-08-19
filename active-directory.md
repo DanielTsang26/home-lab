@@ -155,7 +155,7 @@ The virtual machine, named `CLIENT1`, was created using the Windows 10 ISO and p
 
 ## Step 2: `Windows Setup`
 
-Powered on the virtual machine and proceeded through the Windows 10 installation process using the ISo image.
+Powered on the virtual machine and proceeded through the Windows 10 installation process using the ISO image.
 
 <img width="635" height="475" alt="Lab 20" src="https://github.com/user-attachments/assets/3ed47f26-c3dd-4559-8da0-4576b3284a63" /></br>
 
