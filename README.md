@@ -45,7 +45,7 @@ A `virtual home lab` is a software-based environment, often built on a single co
 
   ---
 
-## 👣 Installing `VirtualBox`
+##  Installing `VirtualBox`
 
 ### Step 1: Visit the Official VirtualBox Website: `https://www.virtualbox.org`
 
@@ -71,7 +71,7 @@ A `virtual home lab` is a software-based environment, often built on a single co
 
 ---
 
-## 👣 Installing `Windows` in VirtualBox
+##  Installing `Windows` in VirtualBox
 
 ### Step 1: Download a Windows ISO: `https://www.microsoft.com/en-us/software-download/windows10`
 
@@ -91,13 +91,12 @@ A `virtual home lab` is a software-based environment, often built on a single co
 
 ### Step 3: Open `VirtualBox` and Create a `New` VM
 
-<img width="1277" height="727" alt="Lab 11" src="https://github.com/user-attachments/assets/eff2147d-5286-41c9-a6bf-4a25f0179c81" /></br>
+
 
 - **Name:** Windows 10 (or whatever you'd like)
 - **ISO Image:** C:\Users\User\Desktop\Windows.iso
 - **Next**
 
-<img width="794" height="457" alt="Lab 12" src="https://github.com/user-attachments/assets/97fc9e44-0f08-4e70-a75c-328d8d7ce946" /></br>
 
 - **Base Memory:** 4096 MB
 - **Processors:** 1 CPU  
@@ -128,7 +127,7 @@ A `virtual home lab` is a software-based environment, often built on a single co
 
 ---
 
-## 👣 Installing `Kali Linux` in VirtualBox
+## Installing `Kali Linux` in VirtualBox
 
 ### Step 1: Download Kali Linux: `https://www.kali.org/`
 
@@ -137,9 +136,6 @@ A `virtual home lab` is a software-based environment, often built on a single co
 ---
 
 ### Step 2: Download a `Prebuilt VM` for VirtualBox
-
-<img width="881" height="526" alt="Kali" src="https://github.com/user-attachments/assets/8b58b4f3-8184-4319-83d6-aa2c90a9d9a6" /></br>
-<img width="1272" height="677" alt="Lab 28" src="https://github.com/user-attachments/assets/33e49b1c-64be-4407-ac94-70bfea34b284" /></br>
 
 *Note: Kali Linux is a 7-Zip file extension. If you do not have 7-Zip installed, you'll need to navigate to `https://7-zip.org/` and download.*
 
@@ -189,4 +185,4 @@ A `virtual home lab` is a software-based environment, often built on a single co
 
 ---
 
-*This project was designed to simulate a controlled virtual environment for cybersecurity testing and network analysis using Windows Server and Kali Linux virtual machines. The goal was to assess system vulnerabilities, practice ethical hacking techniques, and observe system behavior under various security conditions.*
+*The purpose of the  project was designed to simulate a controlled virtual environment using Windows Server and Kali Linux virtual machines. The goal was to assess system vulnerabilities, practice ethical hacking techniques, and observe system behavior under various security conditions.*
